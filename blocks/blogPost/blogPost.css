@@ -42,8 +42,8 @@
 }
 
 .blogPost__card p{
-    color: var(--text_lightgrey);
-    font-size: 0.9rem;
+    color: var(--text_grey);
+    font-size: 1.1rem;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
