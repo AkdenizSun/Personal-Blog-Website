@@ -52,17 +52,32 @@
     margin: 20px 0px;
 }
 
-.blogPost__fakeimg {
-    background-color:var(--text_lightgrey);
-    height: 200px;
-    width: 100%;
-    padding: 20px;
+  .blogPost__img {
+    background-image: url("/assets/images/sincerely-media-read.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
   }
 
-.blogPost__fakeimgSmall{
+.blogPost__articleName{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    font-size: 2rem;
+    font-weight: 800;
+  
+}
+
+.blogPost__imgSmall{
     background-color:var(--text_lightgrey);
     width: 100%;
-    padding: 20px;
+    padding: 5px;
     height: 50px;
 }
 
